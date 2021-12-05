@@ -1,0 +1,71 @@
+:root {
+    /* Primary Colors */
+    --pale-blue:hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    /* Neutral Colors */
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue:hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+*, body {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--pale-blue);
+    background-image: url('images/pattern-background-desktop.svg');
+}
+.card-container {
+    width: 400px;
+    margin: auto;
+    padding: 0px;
+    background-color: #fff;
+    border-radius: 20px;
+    height: 500px;
+}
+.main-image {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.text h1 {
+   text-align: center;
+   font-weight: 900;
+   font-size: 28px;
+   font-family: 'Red Hat Display', sans-serif;
+   margin-bottom: 20px;
+}
+
+.text p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    padding: 20px;
+    background-color: var(--very-pale-blue);
+    align-items: center;
+    border-radius: 10px;
+
+}
+.row .charges-img {
+    flex-grow: 0;
+}
+.row .charges {
+    flex-grow: 1;
+}
+.row .change-link {
+    flex-grow: 2;
+    text-align: right;
+}
+.charges h4 {
+    font-weight: 900;
+    
+}
