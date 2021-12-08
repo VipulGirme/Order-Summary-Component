@@ -26,4 +26,45 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;   
 }
+.card {
+    grid-column-start: 2;
+    border-radius: 22px;
+    width: 28rem;
+    display: grid;
+    /* grid-template-rows: 220px 1fr auto auto auto; */
+    background-color: white;
+    border-radius: 15px;
+}
 
+.top-img {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+
+.text-content {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.title {
+    align-self: center;
+    color: var(--dark-blue);
+    font-size: 28px;
+    padding: 30px 0 15px 0;
+}
+
+.text {
+    text-align: center;
+    font-size: 15px;
+    color: var(--desaturated-blue);
+    padding: 0 45px 25px 45px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--very-pale-blue);
+    /* justify-content: left; */
+    padding: 20px;
+    margin: 0 40px;
+    border-radius: 10px;
+}
