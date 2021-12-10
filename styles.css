@@ -68,3 +68,50 @@ body{
     margin: 0 40px;
     border-radius: 10px;
 }
+
+.music-icon {
+    width: 42px;
+    height: 42px;
+}
+
+.plan-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.card-text {
+    color: var(--desaturated-blue);
+    text-align: left;
+}
+
+.plan a {
+    align-self: center;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    left: 80px;
+    color: var(--bright-blue);
+}
+
+.card-pay-btn {
+    height: 42px;
+    margin: 28px 42px;
+    background-color: var(--bright-blue);
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-cancel-btn {
+    text-align: center;
+    margin-bottom: 33px;
+    color:var(--desaturated-blue);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
