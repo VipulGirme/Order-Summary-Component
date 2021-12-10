@@ -29,7 +29,7 @@ body{
 .card {
     grid-column-start: 2;
     border-radius: 22px;
-    width: 28rem;
+    width: 25rem;
     display: grid;
     /* grid-template-rows: 220px 1fr auto auto auto; */
     background-color: white;
@@ -49,6 +49,7 @@ body{
     align-self: center;
     color: var(--dark-blue);
     font-size: 28px;
+    font-weight: 900;
     padding: 30px 0 15px 0;
 }
 
@@ -77,8 +78,16 @@ body{
 .plan-text {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+    padding-left: 25px;
     text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.plan-title {
+    color: var(--dark-blue);
+    font-size: 15px;
+    font-weight: 900;
 }
 
 .card-text {
@@ -96,20 +105,20 @@ body{
 }
 
 .card-pay-btn {
-    height: 42px;
-    margin: 28px 42px;
+    height: 38px;
+    margin: 25px 42px;
     background-color: var(--bright-blue);
     border-style: none;
     border-radius: 10px;
     color: white;
     font-weight: 600;
     font-size: 14px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card-cancel-btn {
     text-align: center;
-    margin-bottom: 33px;
+    margin-bottom: 48px;
     color:var(--desaturated-blue);
     text-decoration: none;
     font-weight: 600;
